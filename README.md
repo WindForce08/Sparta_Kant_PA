@@ -1,5 +1,7 @@
 # Sangjun
-sangjun workspace
+sangjun workspace 
+
+### 과제는 workspace 폴더에 있습니다 ^^
 
 ---
 ## requirements.txt 설치
