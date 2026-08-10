@@ -70,30 +70,30 @@ int sub()
     return 0;
 }
 
-int sub2()
-{
-    char lidar_code ='F';
-    std::cout << "lidar_code = ";
-    switch (lidar_code) {
-        case 'F':
-            std::cout << "Lidar is in mode F." << std::endl;
-            break;
-        case 'J':
-            std::cout << "Lidar is in mode J." << std::endl;
-            break;
-        case 'B':
-            std::cout << "Lidar is in mode B." << std::endl;
-            break;
-        case 'C':
-            std::cout << "Lidar is in mode C." << std::endl;
-            break;
-        default:
-            break;
-    }
+// int sub2()
+// {
+//     char lidar_code ='F';
+//     std::cout << "lidar_code = ";
+//     switch (lidar_code) {
+//         case 'F':
+//             std::cout << "Lidar is in mode F." << std::endl;
+//             break;
+//         case 'J':
+//             std::cout << "Lidar is in mode J." << std::endl;
+//             break;
+//         case 'B':
+//             std::cout << "Lidar is in mode B." << std::endl;
+//             break;
+//         case 'C':
+//             std::cout << "Lidar is in mode C." << std::endl;
+//             break;
+//         default:
+//             break;
+//     }
 
-    return 0;
+//     return 0;
 
-}
+// }
 
 // int sub3()
 // {

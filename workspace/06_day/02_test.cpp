@@ -3,7 +3,6 @@
 
 int sub();
 int sub2();
-int sub3();
 
 int main() 
 {
@@ -31,7 +30,6 @@ int main()
 
     sub(); // sub() 함수를 호출하여 실행
     sub2(); // sub2() 함수를 호출하여 실행
-    sub3(); // sub3() 함수를 호출하여 실행
 
     return 0;
 
