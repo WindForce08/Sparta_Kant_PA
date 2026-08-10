@@ -2,6 +2,8 @@
 #include <cmath>
 
 int sub();
+int sub2();
+int sub3();
 
 int main() 
 {
@@ -26,7 +28,10 @@ int main()
     count -= 50; //100에 50을 뺀 값을 count에 대입
     std::cout << "count: " << count << std::endl;
 
+
     sub(); // sub() 함수를 호출하여 실행
+    sub2(); // sub2() 함수를 호출하여 실행
+    sub3(); // sub3() 함수를 호출하여 실행
 
     return 0;
 
@@ -40,4 +45,16 @@ int sub()
 
     return 0;
 
+}
+
+int sub2() {
+    int number = 0;
+    while (1){
+        std::cout << "Hello, World!:  " << number << std::endl;
+        number++;
+        if (number > 10) {
+             break; // number가 10보다 크면 while문을 빠져나감
+        }
+    }
+    return 0;
 }
