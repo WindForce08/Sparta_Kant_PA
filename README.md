@@ -1,7 +1,9 @@
 # Sangjun
 sangjun workspace 
-
+---
 ### 과제는 workspace 폴더에 있습니다 ^^
+
+> 26-08-10 과제 : /workspace/06_day/clac.cpp, memmory_access.cpp
 
 ---
 ## requirements.txt 설치
