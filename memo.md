@@ -715,3 +715,4 @@ Ctrl + `           터미널
 Ctrl + Shift + P   명령 팔레트
 Ctrl + P           파일 찾기
 ```
+
