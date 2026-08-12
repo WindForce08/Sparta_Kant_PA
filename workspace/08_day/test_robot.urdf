@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<robot name="test_robot">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="1 1 0.5"/>
+      </geometry>
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+    </visual>
+  </link>
+
+  <link name="lidar">
+    <visual>
+        <geometry>
+            <cylinder radius="0.05" length="0.1"/>
+        </geometry>
+        <origin xyz="0 0 0.25" rpy="0 0 0"/>
+    </visual>
+  </link>
+
+    <joint name="lidar_joint" type="fixed">
+     <parent link="base_link"/>
+     <child link="lidar"/>
+     <origin xyz="0 0 0.3" rpy="0 0 0"/>
+    </joint>
+
+ 
+</robot>
+
+
