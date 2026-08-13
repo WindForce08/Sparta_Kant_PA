@@ -13,3 +13,14 @@ __pycache__/
 
 # Environment Variables
 .env
+
+# ROS 2 Build / Install / Log outputs
+build/
+install/
+log/
+**/ROS2_WS/build/
+**/ROS2_WS/install/
+**/ROS2_WS/log/
+workspace/ROS2_WS/build/
+workspace/ROS2_WS/install/
+workspace/ROS2_WS/log/
