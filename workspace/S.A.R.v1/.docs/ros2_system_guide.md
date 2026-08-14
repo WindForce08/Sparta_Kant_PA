@@ -30,21 +30,21 @@ graph TD
         IMU["6축 IMU Sensor"]
     end
 
-    Webcam -->|USB Video Stream| CamNode
-    CamNode -->|/camera/image_raw| AINode
-    AINode -->|/camera/image_processed| RViz
+    Webcam -->|"USB Video Stream"| CamNode
+    CamNode -->|"/camera/image_raw"| AINode
+    AINode -->|"/camera/image_processed"| RViz
     
-    TeleopNode -->|/cmd_vel| BridgeNode
-    BridgeNode <-->|USB Serial (115200/921600 Baud)| ESP32
+    TeleopNode -->|"/cmd_vel"| BridgeNode
+    BridgeNode <-->|"USB Serial (115200/921600 Baud)"| ESP32
     
-    ESP32 -->|PWM Drive| Motors
-    Encoders -->|Pulse Interrupt| ESP32
-    ESP32 -->|PWM Signal| ArmServos
-    IMU -->|I2C| ESP32
+    ESP32 -->|"PWM Drive"| Motors
+    Encoders -->|"Pulse Interrupt"| ESP32
+    ESP32 -->|"PWM Signal"| ArmServos
+    IMU -->|"I2C"| ESP32
     
-    BridgeNode -->|/odom & TF| RSPNode
-    BridgeNode -->|/joint_states| RSPNode
-    RSPNode -->|/robot_description & TFs| RViz
+    BridgeNode -->|"/odom & TF"| RSPNode
+    BridgeNode -->|"/joint_states"| RSPNode
+    RSPNode -->|"/robot_description & TFs"| RViz
 ```
 
 ---
