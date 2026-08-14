@@ -1,26 +1,66 @@
-# Virtual Environment
-.venv/
-
-# Python Cache
-__pycache__/
-*.py[cod]
-
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
-
-# Environment Variables
-.env
-
-# ROS 2 Build / Install / Log outputs
+# ==========================================
+# ROS 2 (Colcon / Ament) Build Artifacts
+# ==========================================
 build/
 install/
 log/
-**/ROS2_WS/build/
-**/ROS2_WS/install/
-**/ROS2_WS/log/
-workspace/ROS2_WS/build/
-workspace/ROS2_WS/install/
-workspace/ROS2_WS/log/
+COLCON_IGNORE
+
+# ==========================================
+# C / C++ / CMake Output
+# ==========================================
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.lib
+*.la
+*.lai
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ==========================================
+# Python Cache & Package Directories
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build_py/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# ==========================================
+# ROS Bags & Log Files
+# ==========================================
+*.bag
+*.db3
+*.mcap
+rosbag2_*/
+*.log
+
+# ==========================================
+# IDEs & Editor Configuration
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+.env
