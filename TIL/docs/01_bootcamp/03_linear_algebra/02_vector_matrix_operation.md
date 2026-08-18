@@ -23,3 +23,8 @@
 >▏ 로봇의 base·camera·LiDAR 좌표계는 서로 다른 기저의 선택이고, 좌표 변환이란 기저를 바꿔 읽는 일입니다.
 
 
+[벡터의 내적](https://dippingtodeepening.tistory.com/21)
+[선형대수의 입문](https://auto-trading.tistory.com/entry/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99-%EC%9E%85%EB%AC%B8-%ED%96%89%EB%A0%AC%EA%B3%BC-%EB%B2%A1%ED%84%B0-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%BD%94%EB%93%9C-%ED%8F%AC%ED%95%A8#google_vignette)
+[회전행렬](https://xoft.tistory.com/109)
+[선형대수의 본질](https://www.youtube.com/watch?v=U0iMJmx9GE8&t=250s)
+[공돌이 수학정리노트](https://angeloyeo.github.io/2020/09/07/basic_vector_operation.html)
